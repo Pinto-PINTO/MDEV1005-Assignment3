@@ -53,7 +53,7 @@ class WelcomeScreen extends StatelessWidget {
                   Expanded(
                     child: WelcomeButton(
                       buttonText: 'Dashboard',
-                      onTap: const DashboardScreen(),
+                      onTap: DashboardScreen(),
                       color: Colors.white,
                       textColor: Color(0xFF416FDF),
                     ),
