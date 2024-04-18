@@ -85,7 +85,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       width: double.infinity,
                       child: ElevatedButton(
                         onPressed: () {
-                          Routes.navigateTo(context, Routes.welcome);
+                          Routes.navigateTo(context, Routes.todolist);
                         },
                         child: Text(
                           'To-Do List',
