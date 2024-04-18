@@ -80,7 +80,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       height: 30.0,
                     ),
 
-                    // To Do List Button
+                    // ---------- To Do List Button ----------
                     SizedBox(
                       width: double.infinity,
                       child: ElevatedButton(
@@ -108,15 +108,15 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       height: 10.0,
                     ),
 
-                    // Weather API Button
+                    // ---------- USA Population Button ----------
                     SizedBox(
                       width: double.infinity,
                       child: ElevatedButton(
                         onPressed: () {
-                          Routes.navigateTo(context, Routes.welcome);
+                          Routes.navigateTo(context, Routes.populationapi);
                         },
                         child: Text(
-                          'Weather API',
+                          'Population API',
                           style: TextStyle(fontSize: 25, color: Colors.white),
                         ),
                         style: ElevatedButton.styleFrom(
@@ -136,7 +136,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       height: 10.0,
                     ),
 
-                    // Calculator Button
+                    // ---------- Calculator Button ----------
                     SizedBox(
                       width: double.infinity,
                       child: ElevatedButton(
@@ -170,7 +170,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       children: [
                         Flexible(
                           child: Text(
-                            'The Components above have been custom built so that users can do basic to-do list operations, display data from the weather api as well as do some basic calculations',
+                            'The Components above have been custom built so that users can do to-do list operations, display data from the usa population api as well as do some basic calculations',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               color: Colors.grey.withOpacity(0.7), // Adjust the color if needed
